@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "Lwc trailhead",
+  "namespace": "",
+  "sfdcLoginUrl": "https://resourceful-moose-fiua07-dev-ed.my.salesforce.com/",
+  "sourceApiVersion": "54.0"
+}

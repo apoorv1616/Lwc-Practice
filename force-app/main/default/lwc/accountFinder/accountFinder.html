@@ -1,0 +1,8 @@
+<template>
+    <lightning-input type="number" value={annualRevenue} label="Annual Revenue" formatter="currency" onchange={handleChange} ></lightning-input>
+    <lightning-button label="Reset" onclick={reset}></lightning-button>
+
+    <template for:each={accounts} for:item="item" if:true={accounts}>
+        {item.Name}
+    </template>
+</template>
